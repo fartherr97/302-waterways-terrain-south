@@ -15,3 +15,11 @@ Depth and elevation tiles for the 302 Waterways 3D view, served by GitHub Pages 
   delta-coded (first value absolute), little-endian, gzip.
 
 Built by `scripts/engine3d/bake_coast.py` and `split_sets.py` in the app repository.
+
+
+## Florida (November 2026)
+
+All of Florida's coast, Atlantic and Gulf, re-baked by `bake_florida.py`: NOAA NCEI CUDEM 1/9"
+where it reaches (most of the coast), over NOAA Office of Coast Survey BlueTopo for the water
+and USGS 3DEP 1/3" for the land. Data derived from NOAA Office of Coast Survey BlueTopo
+(public domain), NOAA NCEI CUDEM (public domain) and USGS 3DEP (public domain).
